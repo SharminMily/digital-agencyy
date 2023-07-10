@@ -171,3 +171,95 @@ body{
     border-radius:25px;
     border: none;
 }
+.blogs-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+.blog-box{
+    text-align: center;
+    margin-top:30px;
+}
+.description-blog{
+    font-size:22px;
+    width: 50%;
+    margin: auto;
+}
+
+.blogs{
+    margin-top: 35px;
+    padding:30px;
+    display: flex;
+    justify-content: space-evenly ;
+    align-items:center;
+}
+.blog{
+    width:350px;
+    height: 450px;
+    background:white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius:10px;
+}
+.blog-img{
+    width:350px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.blog-text{
+    padding: 15px;
+}
+.blog-title{
+    font-size:24px;
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+}
+.blog-description{
+    font-size:18px;
+    color: rgb(76, 72, 72);
+    margin-top: 15px;
+}
+
+footer{
+    width: 100%;   
+    background-image: url("./images/person/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+   
+}
+.footer-container{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 20px; */
+    border-bottom: 1px solid gray;
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width:170px;
+}
+
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.fa-solid{
+    margin-right: 7px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.icons{
+    /* text-align: center; */
+    margin-top:20px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
+}
