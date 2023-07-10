@@ -65,3 +65,71 @@ body{
     .buttons{
         padding:10px;
     }
+.service-container{
+    height: 100vh;
+    background-image: url("./images/person/footer-bg.png"),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* text-align: center; */
+    color: white;
+    padding: 20px;
+}
+.service-des{
+    width: 50%;
+}
+.box{
+    text-align: center;
+    width: 150px;
+    height: 120px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px gray;
+}
+.icon{
+   width: 70px; 
+   margin-bottom: 20px;
+}
+.first-two-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+   
+    margin: 10px;
+}
+.author-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items:center
+    
+}
+.author-details{
+    display: flex;
+    /* justify-content: center; */
+    align-items:center;
+    /* padding:7px; */
+    border-right: 1px solid rgb(245, 44, 44);
+
+}
+.author-details img{
+    width:25%;
+    border-radius: 100px;
+    padding: 7px;
+    
+}
+.more-details{
+    padding: 15px 30px;
+    margin-left: 11px;
+    border-radius: 25px;
+    background-color: none;
+    border: 1px solid rgb(51, 48, 48);
+    color: rgb(245, 44, 44);
+}
